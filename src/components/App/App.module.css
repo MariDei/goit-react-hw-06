@@ -24,17 +24,17 @@
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
   .title {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .title {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
