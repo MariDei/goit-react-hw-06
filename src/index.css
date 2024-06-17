@@ -10,10 +10,10 @@
 }
 
 body {
-  color: rgb(36, 35, 35);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./image/phone.jpg) center / cover no-repeat;
-  min-height: 125vh;
+  color: azure;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),
+    url(./image/phonebook.jpeg) center / cover no-repeat;
+  min-height: 135vh;
 }
 
 h1,
@@ -44,7 +44,5 @@ a {
 }
 
 button {
-  margin: 5px;
-  padding: 5px;
   font-family: inherit;
 }

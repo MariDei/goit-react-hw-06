@@ -34,11 +34,14 @@ const ContactForm = () => {
       validationSchema={validationSchema}
     >
       <Form className={css.wrapper}>
-        <label htmlFor={fieldNameId}>Name</label>
+        <label className={css.name} htmlFor={fieldNameId}>
+          Name
+        </label>
         <Field className={css.input} type="text" id={fieldNameId} name="name" />
         <ErrorMessage name="name" component="span" />
-
-        <label htmlFor={fieldNumberId}>Number</label>
+        <label className={css.number} htmlFor={fieldNumberId}>
+          Number
+        </label>
         <Field
           className={css.input}
           type="phone"
@@ -46,7 +49,6 @@ const ContactForm = () => {
           name="number"
         />
         <ErrorMessage name="number" component="span" />
-
         <button className={css.btn} type="submit">
           Add contact
         </button>

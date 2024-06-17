@@ -1,11 +1,14 @@
 .item {
   position: relative;
-  width: 400px;
-  padding: 6px 10px;
+  width: 385px;
+  padding: 6px;
   display: flex;
+  align-content: start;
   flex-direction: column;
   gap: 6px;
   font-size: 18px;
+  color: azure;
+  background-color: linear-gradient(to right, #868f96 0%, #596164 100%);
   border-radius: 6px;
   border: 2px solid azure;
 }
@@ -27,7 +30,7 @@
 
 .icon {
   margin-right: 10px;
-  fill: yellow;
+  fill: gold;
 }
 
 .number {
@@ -36,11 +39,11 @@
 
 .btn {
   position: absolute;
-  margin: 15px 300px 15px;
+  margin: 15px 290px 15px;
   padding: 10px;
   font-size: 20px;
   font-weight: 700;
-  background-color: yellow;
+  background-color: gold;
   color: rgb(74, 72, 72);
   border: none;
   border-radius: 5px;
@@ -50,7 +53,8 @@
 
 .btn:hover,
 .btn:focus {
-  color: yellow;
-  background-color: rgb(74, 72, 72);
+  color: red;
+  background-color: inherit;
+  border: 1px solid azure;
   box-shadow: 2px 2px 2px gray;
 }
